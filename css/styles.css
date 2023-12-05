@@ -42,6 +42,7 @@ h2 {
     row-gap: 10px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 20px;
 }
 
 .main-responsive section .contenedor-flex .card {
@@ -72,8 +73,9 @@ h2 {
     justify-content: space-evenly;
 }
 
-.main-responsive .videos-index .tamaño-videos{
+.main-responsive .tamaño-videos{
     width: 100%;
+    height: 1000px;
 }
 
 
@@ -102,17 +104,22 @@ h2 {
     font-size: 15px;
 }
 
+
 .d-block{
-    width: 100%;
-    height: 500px;
+    height: 100%
 }
 
 /*Media query para tablet*/
 @media screen and (max-width: 1024px) {
-    
+    .main-responsive .videos-index .tamaño-videos{
+        width: 12rem;
+        height: 12rem;
+    }
 }
 
-    /*Media query para telefono*/
+
+/*Media query para telefono*/
+/*
 @media screen and (max-width: 768) {
-    
 }
+*/
