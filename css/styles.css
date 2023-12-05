@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DCD1B2;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.mainContacto form div label {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.logoWsp {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.img-logo {
+    width: 5rem;
+}
+
+
+.main-responsive section .contenedor-flex {
+    display: flex;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main-responsive section .contenedor-flex .card {
+    width: 300px;
+    height: 320px;
+    background-color: antiquewhite;
+}
+
+.main-responsive section .contenedor-flex .card img {
+    width: 100%;
+    height: 150px;
+}
+
+
+.main-responsive section .contenedor-flex .card .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    text-align: center;
+}
+
+.main-responsive .videos-index{
+    display:flex;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main-responsive .videos-index .tamaño-videos{
+    width: 100%;
+}
+
+
+.parrafos {
+    font-size: 18px;
+}
+
+.menu {
+    flex-grow: 0;
+}
+
+.menu ul li a {
+    text-decoration: underline;
+}
+
+.menu-button {
+    border: 0;
+}
+
+.menu-button:focus {
+    box-shadow: none;
+}
+
+.menu-ul {
+    align-items: center;
+    font-size: 15px;
+}
+
+.d-block{
+    width: 100%;
+    height: 500px;
+}
+
+/*Media query para tablet*/
+@media screen and (max-width: 1024px) {
+    
+}
+
+    /*Media query para telefono*/
+@media screen and (max-width: 768) {
+    
+}
