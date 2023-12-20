@@ -1,0 +1,13 @@
+.main-responsive{
+    .videos-index{
+        display:flex;
+        row-gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+        .tamaño-videos{
+            width: 70%;
+            height: 1000px;
+        }
